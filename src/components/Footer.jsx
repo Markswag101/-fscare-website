@@ -23,7 +23,7 @@ export default function Footer() {
               care with integrity, compassion, and excellence.
             </p>
             <div className="footer-contact-quick">
-              <a href="tel:07031934857"><Phone size={15}/> 07031934857</a>
+              <a href="tel:07031934857"><Phone size={15}/> 07031934857 | 07054172448</a>
               <a href="mailto:firststerlingpharm@gmail.com"><Mail size={15}/> firststerlingpharm@gmail.com</a>
               <a href="https://wa.me/2347054172448" target="_blank" rel="noreferrer">
                 <MessageCircle size={15} color="#10b981"/> WhatsApp Us

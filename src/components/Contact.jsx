@@ -25,7 +25,7 @@ export default function Contact() {
       <div className="container">
         <div className="contact-top">
           <span className="section-label">Get In Touch</span>
-          <h2 className="section-title">We're Here When<br /><span style={{color:"var(--orange)"}}>You Need Us</span></h2>
+          <h2 className="section-title"><span style={{color:"var(--blue-700)"}}>We're Here When</span><br /><span style={{color:"var(--orange)"}}>You Need Us</span></h2>
           <p className="section-sub">
             Have a question about your prescription, a product, or your health?
             Reach out — our team responds quickly.

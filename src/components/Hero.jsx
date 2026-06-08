@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Your Health.<br />
+            <span style={{color:"var(--blue-700)"}}>Your Health.</span><br />
             <span className="hero-title-accent">Our Priority.</span>
           </h1>
 
@@ -63,7 +63,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-visual animate-fadeUp delay-2">
-          <div className="hero-card main-card">
+          <div className="hero-card main-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
             <div className="card-header">
               <div className="avatar-group">
                 {['#3b82f6','#10b981','#f59e0b'].map((c,i) => (
@@ -80,8 +80,8 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mini-cards-row">
-            <div className="hero-card mini-card">
+            <div className="mini-cards-row">
+            <div className="hero-card mini-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
               <div className="mini-icon" style={{background:'#dbeafe'}}>💊</div>
               <div>
                 <div className="mini-label">Prescription Ready</div>
@@ -89,7 +89,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="hero-card mini-card">
+            <div className="hero-card mini-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
               <div className="mini-icon" style={{background:'#d1fae5'}}>❤️</div>
               <div>
                 <div className="mini-label">Health Checks</div>
