@@ -100,3 +100,27 @@
 @media (max-width: 480px) {
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+  transition: transform 0.2s, opacity 0.2s;
+  text-transform: uppercase;
+}
+.social-icon:hover { transform: translateY(-2px); opacity: 0.85; }
+.facebook  { background: #1877f2; }
+.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.twitter   { background: #000; }
+.tiktok    { background: #010101; border: 1px solid #333; }

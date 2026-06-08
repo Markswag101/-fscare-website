@@ -16,19 +16,25 @@ export default function Footer() {
         <div className="container footer-grid">
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
-            <img src={logo} alt="FS Care" className="footer-logo-img" />
-          </a>
+              <img src={logo} alt="FS Care" className="footer-logo-img" />
+            </a>
             <p className="footer-tagline">
               Your Trusted Partner in Health and Wellness. Professional pharmaceutical
               care with integrity, compassion, and excellence.
             </p>
             <div className="footer-contact-quick">
-              <a href="tel:+2347054172448"><Phone size={15}/> 07031934857</a>
+              <a href="tel:07031934857"><Phone size={15}/> 07031934857</a>
               <a href="mailto:firststerlingpharm@gmail.com"><Mail size={15}/> firststerlingpharm@gmail.com</a>
               <a href="https://wa.me/2347054172448" target="_blank" rel="noreferrer">
                 <MessageCircle size={15} color="#10b981"/> WhatsApp Us
               </a>
-              <span><MapPin size={15}/> Lagos, Nigeria</span>
+              <span><MapPin size={15}/> 2, Ijero Street, off Nnobi Kilo, Surulere, Lagos</span>
+            </div>
+            <div className="footer-social">
+              <a href="https://www.facebook.com/FS.care" target="_blank" rel="noreferrer" className="social-icon facebook">f</a>
+              <a href="https://www.instagram.com/fs.cares" target="_blank" rel="noreferrer" className="social-icon instagram">ig</a>
+              <a href="https://x.com/fs_cares" target="_blank" rel="noreferrer" className="social-icon twitter">𝕏</a>
+              <a href="https://www.tiktok.com/@fs.care" target="_blank" rel="noreferrer" className="social-icon tiktok">tt</a>
             </div>
           </div>
 

@@ -6,7 +6,7 @@ const info = [
   { icon: <Phone size={20}/>, label: 'Phone', value: '07031934857', href: 'tel:+2347054172448' },
   { icon: <MessageCircle size={20}/>, label: 'WhatsApp', value: 'Chat with us instantly', href: 'https://wa.me/2347054172448', green: true },
   { icon: <Mail size={20}/>, label: 'Email', value: 'firststerlingpharm@gmail.com', href: 'mailto:firststerlingpharm@gmail.com' },
-  { icon: <MapPin size={20}/>, label: 'Address', value: '2, Ijero Street, off Nobi Kilo, Surulere, Lagos', href: '#contact' },
+  { icon: <MapPin size={20}/>, label: 'Address', value: '2, Ijero Street, off Nnobi Kilo, Surulere, Lagos', href: '#contact' },
   { icon: <Clock size={20}/>, label: 'Hours', value: 'Mon–Sat: 8am–8pm | Sun: 10am–5pm', href: null },
 ];
 
@@ -63,7 +63,7 @@ export default function Contact() {
 
             <div className="map-placeholder">
               <MapPin size={28} color="var(--blue-400)" />
-              <p>Visit us at 2, Ijero Street, off Nobi Kilo, Surulere, Lagos</p>
+              <p>Visit us at 2, Ijero Street, off Nnobi Kilo, Surulere, Lagos</p>
               <a href="https://maps.google.com" target="_blank" rel="noreferrer" className="btn btn-outline" style={{marginTop:'12px', fontSize:'13px', padding:'9px 18px'}}>
                 Open in Maps
               </a>

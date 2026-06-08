@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShoppingBag, MessageCircle, CalendarCheck, MapPin, ShieldCheck, Star, Users } from 'lucide-react';
+import logo from '../logo.jpeg';
 import './Hero.css';
 
 const stats = [
@@ -15,6 +16,9 @@ export default function Hero() {
         <div className="hero-blob blob-1" />
         <div className="hero-blob blob-2" />
         <div className="hero-grid" />
+        <div className="hero-logo-watermark">
+          <img src={logo} alt="" aria-hidden="true" className="watermark-img" />
+        </div>
       </div>
 
       <div className="container hero-inner">
