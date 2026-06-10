@@ -16,12 +16,10 @@ export default function Hero() {
         <div className="hero-blob blob-1" />
         <div className="hero-blob blob-2" />
         <div className="hero-grid" />
-        <div className="hero-logo-watermark">
-          <img src={logo} alt="" aria-hidden="true" className="watermark-img" />
-        </div>
       </div>
 
       <div className="container hero-inner">
+        {/* LEFT: Text content */}
         <div className="hero-content animate-fadeUp">
           <div className="hero-badge">
             <ShieldCheck size={14} />
@@ -42,12 +40,7 @@ export default function Hero() {
             <a href="#products" className="btn btn-white">
               <ShoppingBag size={17} /> Shop Products
             </a>
-            <a
-              href="https://wa.me/2347054172448"
-              className="btn btn-ghost"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://wa.me/2347054172448" className="btn btn-ghost" target="_blank" rel="noreferrer">
               <MessageCircle size={17} /> WhatsApp Us
             </a>
           </div>
@@ -62,8 +55,15 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* RIGHT: Logo + floating cards */}
         <div className="hero-visual animate-fadeUp delay-2">
-          <div className="hero-card main-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
+          {/* Big faded logo in background of right column */}
+          <div className="hero-logo-bg">
+            <img src={logo} alt="FS Care" className="hero-logo-bg-img" />
+          </div>
+
+          {/* Cards on top */}
+          <div className="hero-card main-card">
             <div className="card-header">
               <div className="avatar-group">
                 {['#3b82f6','#10b981','#f59e0b'].map((c,i) => (
@@ -80,16 +80,15 @@ export default function Hero() {
             </a>
           </div>
 
-            <div className="mini-cards-row">
-            <div className="hero-card mini-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
+          <div className="mini-cards-row">
+            <div className="hero-card mini-card">
               <div className="mini-icon" style={{background:'#dbeafe'}}>💊</div>
               <div>
                 <div className="mini-label">Prescription Ready</div>
                 <div className="mini-sub">Fast 30-min fulfillment</div>
               </div>
             </div>
-
-            <div className="hero-card mini-card" style={{background:'rgba(255,255,255,0.92)', backdropFilter:'blur(8px)'}}>
+            <div className="hero-card mini-card">
               <div className="mini-icon" style={{background:'#d1fae5'}}>❤️</div>
               <div>
                 <div className="mini-label">Health Checks</div>
